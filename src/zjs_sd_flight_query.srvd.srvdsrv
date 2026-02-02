@@ -1,0 +1,4 @@
+@EndUserText.label: 'Analytics Query'
+define service ZJS_SD_FLIGHT_QUERY {
+  expose ZDT187v_JHN_Flight_Query;
+}

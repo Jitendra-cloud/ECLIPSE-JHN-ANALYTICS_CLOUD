@@ -1,0 +1,76 @@
+@Metadata.layer: #CORE
+annotate entity ZDT187v_JHN_Flight_Query with
+{
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  AirlineID;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  ConnectionID;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  FlightDate;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  PlaneType;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  AirportFromId;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  AirportToId;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  YearQuarter;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  CalendarYear;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  Price;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  GlobalCurrency;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  CurrencyCode;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  MaximumSeats;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  OccupiedSeats;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  OccupationRate;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  unitPercent;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  TotalFlights;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  Distance;
+
+  @UI.lineItem: [ { position: 10 , importance: #HIGH, cssDefault:{width: '9rem'} } ]
+  @UI.fieldGroup: [{ position: 10, qualifier: 'HeaderData' }]
+  DistanceUnit;
+
+}
